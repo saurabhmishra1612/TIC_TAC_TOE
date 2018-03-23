@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saurabh.tic_tac_to.first_page"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:background="@drawable/star2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:id="@+id/l3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TIC TAC TOE"
+            android:textSize="50dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btnstyle"
+            android:fontFamily="cursive"
+            android:layout_gravity="center"
+            android:layout_marginTop="45dp"
+            android:id="@+id/tv1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/l4">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tic"
+            android:id="@+id/iv"/>
+    </LinearLayout>
+
+
+</LinearLayout>

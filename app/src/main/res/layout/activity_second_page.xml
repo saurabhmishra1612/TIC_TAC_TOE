@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saurabh.tic_tac_to.second_page"
+    android:orientation="vertical"
+    android:background="@drawable/star6"
+    android:weightSum="4">
+
+    <LinearLayout
+        android:layout_height="400dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/l1"
+        android:layout_weight="3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="TIC TAC TOE"
+            android:textSize="70dp"
+            android:fontFamily="IMPACT"
+            android:gravity="center"
+            android:background="@drawable/btnstyle"
+            android:textColor="#FFFFFF"
+
+            android:layout_marginTop="45dp"
+            android:id="@+id/tv2"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="PLAY GAME"
+            android:layout_marginTop="60dp"
+            android:textSize="40dp"
+            android:fontFamily="cursive"
+            android:id="@+id/bt1"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btnstyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:id="@+id/l2"
+        android:layout_weight="1"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="EXIT GAME"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btnstyle"
+            android:layout_marginTop="35dp"
+            android:textSize="40dp"
+            android:paddingBottom="35dp"
+            android:fontFamily="cursive"
+            android:id="@+id/bt2"/>
+    </LinearLayout>
+
+
+</LinearLayout>
